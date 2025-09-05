@@ -2,10 +2,155 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdul Mansoor - Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-content">
+        <h1>Abdul Mansoor</h1>
+        <p>Full-stack Software Engineer and Computer Science student passionate about creating customer-centric solutions.</p>
+        <a href="#about" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <img src="img/me.png" alt="My Photo" class="profile-pic">
+          <div class="bio">
+            <p>Full-stack Software Engineer and Computer Science student with experience in frontend and backend development using React, Java, and Python. Skilled in building scalable web applications, integrating APIs, and working with MySQL databases. Passionate about engineering excellence, problem-solving, and creating customer-centric solutions that drive real business impact.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="education-item">
+          <h3>Bachelor's of Science in Computer Science</h3>
+          <p>University of Utah | Anticipated Dec 2025</p>
+          <p>PathMaker Research Scholar | One Refugee Scholar | Utah Academic Scholar | United Way Scholar | Dean's List</p>
+          <p>Relevant Coursework: Object-Oriented Programming (Java), Data Structures and Algorithms (Java), Web Development II (React, Python), Web Development I (HTML, CSS, Python), Software Practice (C#), Databases (MySQL, C#)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>My Skills</h2>
+        <div class="skills-category">
+          <h3><i class="fas fa-code"></i> Programming & Frameworks</h3>
+          <div class="skills-grid">
+            <div class="skill"><i class="fab fa-java"></i> Java</div>
+            <div class="skill"><i class="fas fa-leaf"></i> Spring Boot</div>
+            <div class="skill"><i class="fab fa-python"></i> Python</div>
+            <div class="skill"><i class="fab fa-react"></i> React</div>
+            <div class="skill"><i class="fas fa-server"></i> Django</div>
+            <div class="skill"><i class="fas fa-rocket"></i> FastAPI</div>
+            <div class="skill"><i class="fas fa-exchange-alt"></i> RESTful API</div>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3><i class="fas fa-database"></i> Databases & Cloud</h3>
+          <div class="skills-grid">
+            <div class="skill"><i class="fas fa-database"></i> Postgres</div>
+            <div class="skill"><i class="fas fa-database"></i> MySQL</div>
+            <div class="skill"><i class="fab fa-aws"></i> AWS</div>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3><i class="fas fa-cogs"></i> Software Engineering Practices</h3>
+          <div class="skills-grid">
+            <div class="skill"><i class="fas fa-users"></i> Agile Scrum</div>
+            <div class="skill"><i class="fas fa-project-diagram"></i> SDLC</div>
+            <div class="skill"><i class="fas fa-sync-alt"></i> CI/CD</div>
+            <div class="skill"><i class="fas fa-vial"></i> TDD</div>
+            <div class="skill"><i class="fas fa-check-circle"></i> Unit Testing</div>
+            <div class="skill"><i class="fas fa-search"></i> Code Review</div>
+            <div class="skill"><i class="fas fa-object-group"></i> OOP</div>
+            <div class="skill"><i class="fas fa-sitemap"></i> Data Structures & Algorithms</div>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3><i class="fas fa-handshake"></i> Collaboration & Leadership</h3>
+          <div class="skills-grid">
+            <div class="skill"><i class="fas fa-crown"></i> Leadership</div>
+            <div class="skill"><i class="fas fa-user-friends"></i> Mentorship</div>
+            <div class="skill"><i class="fas fa-lightbulb"></i> Program Development</div>
+            <div class="skill"><i class="fas fa-users-cog"></i> Cross-Functional Collaboration</div>
+            <div class="skill"><i class="fas fa-people-arrows"></i> Agile Teamwork</div>
+            <div class="skill"><i class="fas fa-brain"></i> Problem-Solving</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <h2>My Experience</h2>
+        <div class="projects-grid">
+          <div class="project">
+            <h3>Software Engineering Intern - BambooHR</h3>
+            <p>May 2025 – Aug 2025</p>
+            <p>Built RESTful API endpoints in PHP for a large-scale web app, reusing repository-layer functions to optimize data handling. Increased API reliability by writing comprehensive unit tests. Performed database schema migrations.</p>
+          </div>
+          <div class="project">
+            <h3>Software Engineering Intern - O.C. Tanner</h3>
+            <p>Jan 2025 – April 2025</p>
+            <p>Led development of a full-stack prototype for an AI-powered celebration card feature using React, Java Spring Boot, and Postgres. Implemented backend API endpoints in Java.</p>
+          </div>
+          <div class="project">
+            <h3>Software Engineering Apprentice - Salt Lake City Corporation</h3>
+            <p>Jul 2022 – Oct 2023</p>
+            <p>Engineered a Python algorithm to parse, standardize, and validate 60,000+ addresses, reducing processing time by 80%. Built a validation tool and UI for faster address verification.</p>
+          </div>
+          <div class="project">
+            <h3>MAUI Application Development</h3>
+            <p>Jan 2023 – Feb 2023</p>
+            <p>Designed and developed a spreadsheet application using C# MAUI and XAML. Implemented backend with C# using optimized data structures and algorithms. Conducted comprehensive unit testing.</p>
+          </div>
+          <div class="project">
+            <h3>President - Bright Association of Utah</h3>
+            <p>Jul 2021 – Jan 2025</p>
+            <p>Collaborated with the International Rescue Committee to present a cultural curriculum to 100+ newly resettled refugees. Instituted a college readiness program and facilitated access to a welding course.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Let's connect! Feel free to reach out if you'd like to collaborate or just say hello.</p>
+        <div class="contact-info">
+          <p><a href="https://www.linkedin.com/in/mansoor-sadiq" target="_blank">LinkedIn</a></p>
+          <p><a href="https://www.github.com/amansoorsq" target="_blank">GitHub</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Abdul Mansoor. All rights reserved.</p>
+  </footer>
 </body>
 </html>
